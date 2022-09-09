@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script type="text/javascript" src="scripts.js"></script>
+  <script src="scripts.js"></script>
 
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
@@ -36,10 +36,10 @@
            <div>Annually</div>
  
            <div class="toggleContainer" >
-           	<label class="switch">
+           	<label class="switch" for="inputCheckBox">
            		 
 			  <input type="checkbox" id="inputCheckBox">
-			  <span class="toggler" onclick="togglePrice()" tabindex="1" onkeypress="keyFunc(event)"></span>
+			  <span class="toggler" onclick="togglePrice()" tabindex="0" onkeypress="keyFunc(event)"></span>
 			 	 
 			</label>
            </div>
@@ -65,7 +65,7 @@
             <p>Send up to 3 GB</p>
             <div class="hr"></div>
             <div class="cardBtnContainer">
-              <button class="cardBtn" tabindex="2" onkeypress="keyFuncBtn(event)">Learn More</button>
+              <button class="cardBtn" tabindex="0" onkeypress="keyFuncBtn(event)">Learn More</button>
             </div>
           </div>
          </div>
@@ -82,7 +82,7 @@
             <p>Send up to 10 GB</p>
             <div class="hr"></div>
             <div class="cardBtnContainer">
-              <button class="cardBtn" tabindex="3" onkeypress="keyFuncBtn(event)">Learn More</button>
+              <button class="cardBtn" tabindex="0" onkeypress="keyFuncBtn(event)">Learn More</button>
             </div>
           </div>
          </div>
@@ -99,7 +99,7 @@
             <p>Send up to 20 GB</p>
             <div class="hr"></div>
             <div class="cardBtnContainer" >
-              <button class="cardBtn" tabindex="4" onkeypress="keyFuncBtn(event)">Learn More</button>
+              <button class="cardBtn" tabindex="0" onkeypress="keyFuncBtn(event)">Learn More</button>
             </div>
           </div>
          </div>
