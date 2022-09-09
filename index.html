@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="scripts.js"></script>
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+ 
+	
+<body>
+  
+  <main>
+    <div class="mainContainer">
+        
+      <div class="contentContainer">
+
+        <div class="header">
+         <h2>Our Pricing</h2>
+         <div class="period">
+           
+           <div>Annually</div>
+ 
+           <div class="toggleContainer" >
+           	<label class="switch">
+           		 
+			  <input type="checkbox" id="inputCheckBox">
+			  <span class="toggler" onclick="togglePrice()" tabindex="1" onkeypress="keyFunc(event)"></span>
+			 	 
+			</label>
+           </div>
+
+           <div>Monthly</div>
+         
+         </div>
+
+       </div> 
+
+       <div class="priceCardsContainer">
+ 
+
+         <div class="priceCard">
+          <div class="priceCardContent">
+            <p >Basic</p>
+            <p class="priceText">$<span class="currentPrice">199.99</span></p>
+            <div class="hr"></div>
+            <p>500 GB Storage</p>
+            <div class="hr"></div>
+            <p>2 Users Allowed</p>
+            <div class="hr"></div>
+            <p>Send up to 3 GB</p>
+            <div class="hr"></div>
+            <div class="cardBtnContainer">
+              <button class="cardBtn" tabindex="2" onkeypress="keyFuncBtn(event)">Learn More</button>
+            </div>
+          </div>
+         </div>
+
+         <div class="priceCard coloredCard">
+          <div class="priceCardContent">
+            <p >Professional</p>
+            <p class="priceText">$<span class="currentPrice">299.99</span></p>
+            <div class="hr"></div>
+            <p>1 TB Storage</p>
+            <div class="hr"></div>
+            <p>5 Users Allowed</p>
+            <div class="hr"></div>
+            <p>Send up to 10 GB</p>
+            <div class="hr"></div>
+            <div class="cardBtnContainer">
+              <button class="cardBtn" tabindex="3" onkeypress="keyFuncBtn(event)">Learn More</button>
+            </div>
+          </div>
+         </div>
+
+         <div class="priceCard">
+          <div class="priceCardContent">
+            <p >Master</p>
+            <p class="priceText">$<span class="currentPrice">399.99</span></p>
+            <div class="hr"></div>
+            <p>2 TB Storage</p>
+            <div class="hr"></div>
+            <p>10 Users Allowed</p>
+            <div class="hr"></div>
+            <p>Send up to 20 GB</p>
+            <div class="hr"></div>
+            <div class="cardBtnContainer" >
+              <button class="cardBtn" tabindex="4" onkeypress="keyFuncBtn(event)">Learn More</button>
+            </div>
+          </div>
+         </div>
+         
+        
+      </div>
+
+    </div>
+
+  </main>
+ 
+  <footer>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/83mbyte" target="_blank">83mbyte</a>.
+  </div>
+  </footer>
+</body>
+</html>
